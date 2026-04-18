@@ -15,6 +15,24 @@ Synchronous and Asynchronous FIFO RTL implementation with full verification.
 ## Simulation Tool
 Icarus Verilog , GTKWave
 
+## Run
+### Synchronous FIFO
+```bash
+cd Sync_FIFO_project
+iverilog -g2012 -o test.vvp dut.v tb.sv
+vvp test.vvp
+gtkwave wave.vcd
+```
+
+### Asynchronous FIFO
+```bash
+cd Async_FIFO_project
+iverilog -g2012 -o test.vvp dut.v tb.sv
+vvp test.vvp
+gtkwave wave.vcd
+```
+
+
 ## Report
-Full design report available in `doc/fifo_report.pdf`
-（如果你还没把pdf放进去，这行先删掉）
+Full design report available in `FIFO Controller Design Report.pdf`
+
