@@ -12,9 +12,6 @@ Synchronous and Asynchronous FIFO RTL implementation with full verification.
 - Two-stage synchronizer for metastability mitigation
 -  SystemVerilog testbench with self-checking reference model
 
-## Simulation Tool
-Icarus Verilog , GTKWave
-
 ## Run
 ### Synchronous FIFO
 ```bash
@@ -31,6 +28,10 @@ iverilog -g2012 -o test.vvp dut.v tb.sv
 vvp test.vvp
 gtkwave wave.vcd
 ```
+## Tools Used
+- Verilog HDL
+- Icarus Verilog
+- GTKWave
 
 
 ## Report
